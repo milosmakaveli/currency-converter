@@ -69,10 +69,10 @@ const CurrencyConverter = () => {
             </div>
             <div className="currency-list">
                 <h3>{amount} EUR = {getConvertedAmount(currency)} {currency} </h3>
-                <h3>{amount} EUR = {getConvertedAmount("USD")}USD</h3>
-                <h3>{amount} EUR = {getConvertedAmount("RSD")}RSD</h3>
-                <h3>{amount} EUR = {getConvertedAmount("CHF")}CHF</h3>
-                <h3>{amount} EUR = {getConvertedAmount("JPY")}JPY</h3>
+                <h3>{amount} EUR = {getConvertedAmount("USD")} USD</h3>
+                <h3>{amount} EUR = {getConvertedAmount("RSD")} RSD</h3>
+                <h3>{amount} EUR = {getConvertedAmount("CHF")} CHF</h3>
+                <h3>{amount} EUR = {getConvertedAmount("JPY")} JPY</h3>
             </div>
         </div>
     )
